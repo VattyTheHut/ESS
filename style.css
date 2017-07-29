@@ -1,0 +1,36 @@
+
+body, *{
+    margin: 0px;
+    padding: 0px;
+    /*max-height: 200px;*/
+    min-height: 100px;
+}
+
+
+#intro{
+    background-image: url('./img/sleepingBaby.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.center-center{
+    margin-top: 25%;
+}
+
+.nav-bar{
+    float: right;
+    margin-right: 30px;
+}
+
+.grey-back{
+    background-color: #F8F8F8;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100vh;
+
+}
+
+

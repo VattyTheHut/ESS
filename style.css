@@ -48,3 +48,24 @@ body, *{
     font-weight: 200;
     font-family: serif;
 }
+
+.score{
+    color: #EDE49A;
+    background-color: #B4CAC3;
+    padding: 5%;
+    margin-top: 5%;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.situations{
+
+    background-color: #FBC222;
+    color: #6C8B95;
+    padding: 10%;
+    
+}
+
+input{
+    text-align: center;
+}

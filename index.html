@@ -1,74 +1,143 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>ESS</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <!--Grid Sys-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-    <!--Animation-->
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">-->
-    <!--Personal Styling-->
-    <link rel="stylesheet" href="style.css">
-  </head>
+   <head>
+      <meta charset="utf-8">
+      <title>ESS</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width">
+      <!--Grid Sys-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+      <!--Animation-->
+      <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">-->
+      <!--Personal Styling-->
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
 
-
-  <body>
-
-    <div class="container-fluid" id=intro>
-        <div class="nav-bar">
+      <section> 
+      <div class="container-fluid" id=intro>
+         <div class="nav-bar">
             <div class="row">
-                <div class="col-md-6">
-                    <h2>About</h2>
-                </div>
-                <div class="col-md-6">
-                    <h2>Contact</h2>
-                </div>
+               <div class="col-md-6">
+                  <h2>About</h2>
+               </div>
+               <div class="col-md-6">
+                  <h2>Contact</h2>
+               </div>
             </div>
-        </div>
-
-        <div class="center-center text-center">
+         </div>
+         <div class="center-center text-center">
             <h1 id="Title">THE EPWORTH SLEEPINESS SCALE</h1>
-        </div>
-    </div>
+         </div>
+      </div>
+      </section>
 
-    <div class="container-fluid grey-back" id=main>
-        <div class="row">
-            <div class="col-md-4">
-
-                <div class="instruction-container">
-                    <div>
-                        <h1>Monthly Budget Calculator</h1>
-                    </div>
-
-                    <div>
-                        <p>
-                            Building a good budget is the key to managing your money. <br />This free budget calculator 
-                            will give you a clear view of your monthly <br />finances and help you find
-                            places to change your budget to make the most of your income.*
-                        </p>
-                    </div>
-                </div>
+      <section>
+      <div class="container-fluid grey-back" id=main>
+         <div class="row">
+            <div class="col-md-6">
+               <div class="instruction-container">
+                  <div>
+                     <h1>Monthly Budget Calculator</h1>
+                  </div>
+                  <div>
+                     <p>
+                        Building a good budget is the key to managing your money. <br />This free budget calculator 
+                        will give you a clear view of your monthly <br />finances and help you find
+                        places to change your budget to make the most of your income.*
+                     </p>
+                  </div>
+               </div>
+               <div class="text-center score">
+                  <div class="text-center">How to measure dozing</div>
+                  <div class="row">
+                     <div class="col-md-6">0 <br />NO CHANCE</div>
+                     <div class="col-md-6">1 <br />SLIGHT CHANCE </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-6">2 <br />MODERATE CHANCE</div>
+                     <div class="col-md-6">3 <br />HIGH CHANCE</div>
+                  </div>
+               </div>
             </div>
+         
+         <!---->
+         <div class="col-md-6">
+            <div class="situations">
+               <form action="">
+                  Sitting and reading: <input 
+                  type="text" 
+                  placeholder="ZERO - THREE" 
+                  type="text"
+                  maxlength="1"
+                  />
 
-                <!---->
+                  Watching TV: <input 
+                  type="text" 
+                  placeholder="ZERO - THREE" 
+                  type="text"
+                  maxlength="1"
+                  />
 
-            <div class="col-md-8">
-                <div>
-                    <div>
-                        
-                    </div>
-                </div>
+                  Sitting inactive in a public place (e.g a theater or a meeting): <input 
+                  type="text" 
+                  placeholder="ZERO - THREE" 
+                  type="text"
+                  maxlength="1"
+                  />
+
+
+                  As a passenger in a car for an hour without a break: <input 
+                  type="text" 
+                  placeholder="ZERO - THREE" 
+                  type="text"
+                  maxlength="1"
+                  />
+
+
+                  Lying down to rest in the afternoon when circumstances permit: <input 
+                  type="text" 
+                  placeholder="ZERO - THREE" 
+                  type="text"
+                  maxlength="1"
+                  />
+
+                  Sitting and talking to someone: <input 
+                  type="text" 
+                  placeholder="ZERO - THREE" 
+                  type="text"
+                  maxlength="1"
+                  />
+
+                  Sitting quietly after a lunch without alcohol: <input 
+                  type="text" 
+                  placeholder="ZERO - THREE" 
+                  type="text"
+                  maxlength="1"
+                  />
+
+                  In a car, while stopped for a few minutes in traffic: <input 
+                  type="text" 
+                  placeholder="ZERO - THREE" 
+                  type="text"
+                  maxlength="1"
+                  />
+
+                  <input 
+                  type="submit" 
+                  value="Submit" 
+                  />
+               </form>
             </div>
-        </div>  
-    </div>
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
-    <!--<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>-->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>-->
-    <!--<script src="scripts/app.js"></script>-->
-    <script src="/script.js"></script>
-</body>
+            
+         </div>
+      </div>
+      </div>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+      <!--<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>-->
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+      <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>-->
+      <!--<script src="scripts/app.js"></script>-->
+      <script src="/script.js"></script>
+   </body>
 </html>

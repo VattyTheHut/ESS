@@ -27,10 +27,24 @@ body, *{
 
 .grey-back{
     background-color: #F8F8F8;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding: 10%;
     height: 100vh;
 
 }
 
+.instruction-container{
+    background-color: #4d4c4c;
+    
+    color: #E4C6D5;
+    padding: 5%;
 
+}
+
+
+.instruction-container p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #EEE1D2;
+    font-weight: 200;
+    font-family: serif;
+}

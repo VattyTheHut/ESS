@@ -6,4 +6,8 @@ $( "#Title" ).fadeIn( 2500, function() {
   });
 
 
+  function myFunction() {
+    console.log(document.getElementById("input1").value);
+}
+
 })

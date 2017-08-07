@@ -13,25 +13,25 @@
       <link rel="stylesheet" href="style.css">
    </head>
    <body>
-
-      <section> 
-      <div class="container-fluid" id=intro>
-         <div class="nav-bar">
-            <div class="row">
-               <div class="col-md-6">
-                  <h2>About</h2>
-               </div>
-               <div class="col-md-6">
-                  <h2>Contact</h2>
+      <section>
+         <div class="container-fluid" id=intro>
+            <div class="nav-bar">
+               <div class="row">
+                  <div class="col-md-6">
+                     <h2>About</h2>
+                  </div>
+                  <div class="col-md-6">
+                     <h2>Contact</h2>
+                  </div>
                </div>
             </div>
+            <div class="center-center text-center">
+               <h1 id="Title">
+                  THE EPWORTH SLEEPINESS SCALE
+               </h1>
+            </div>
          </div>
-         <div class="center-center text-center">
-            <h1 id="Title">THE EPWORTH SLEEPINESS SCALE</h1>
-         </div>
-      </div>
       </section>
-
       <section>
       <div class="container-fluid grey-back" id=main>
          <div class="row">
@@ -60,78 +60,90 @@
                   </div>
                </div>
             </div>
-         
-         <!---->
-         <div class="col-md-6">
-            <div class="situations">
-               <form action="">
-                  Sitting and reading: <input 
-                  type="text" 
-                  placeholder="ZERO - THREE" 
-                  type="text"
-                  maxlength="1"
-                  />
-
-                  Watching TV: <input 
-                  type="text" 
-                  placeholder="ZERO - THREE" 
-                  type="text"
-                  maxlength="1"
-                  />
-
-                  Sitting inactive in a public place (e.g a theater or a meeting): <input 
-                  type="text" 
-                  placeholder="ZERO - THREE" 
-                  type="text"
-                  maxlength="1"
-                  />
-
-
-                  As a passenger in a car for an hour without a break: <input 
-                  type="text" 
-                  placeholder="ZERO - THREE" 
-                  type="text"
-                  maxlength="1"
-                  />
-
-
-                  Lying down to rest in the afternoon when circumstances permit: <input 
-                  type="text" 
-                  placeholder="ZERO - THREE" 
-                  type="text"
-                  maxlength="1"
-                  />
-
-                  Sitting and talking to someone: <input 
-                  type="text" 
-                  placeholder="ZERO - THREE" 
-                  type="text"
-                  maxlength="1"
-                  />
-
-                  Sitting quietly after a lunch without alcohol: <input 
-                  type="text" 
-                  placeholder="ZERO - THREE" 
-                  type="text"
-                  maxlength="1"
-                  />
-
-                  In a car, while stopped for a few minutes in traffic: <input 
-                  type="text" 
-                  placeholder="ZERO - THREE" 
-                  type="text"
-                  maxlength="1"
-                  />
-
-                  <input 
-                  type="submit" 
-                  value="Submit" 
-                  />
-               </form>
+            <!---->
+            <div class="col-md-6">
+               <div class="situations">
+                  <form action="">
+                     <div>
+                        Sitting and reading: <input 
+                           type="text" 
+                           placeholder="ZERO - THREE" 
+                           type="text"
+                           maxlength="1"
+                           id="input1"
+                           />
+                     </div>
+                     <div>
+                        Watching TV: <input 
+                           type="text" 
+                           placeholder="ZERO - THREE" 
+                           type="text"
+                           maxlength="1"
+                           id="input2"
+                           />
+                     </div>
+                     <div>  
+                        Sitting inactive in a public place (e.g a theater or a meeting): <input 
+                           type="text" 
+                           placeholder="ZERO - THREE" 
+                           type="text"
+                           maxlength="1"
+                           id="input3"
+                           />
+                     </div>
+                     <div>
+                        As a passenger in a car for an hour without a break: <input 
+                           type="text" 
+                           placeholder="ZERO - THREE" 
+                           type="text"
+                           maxlength="1"
+                           id="input4"
+                           />
+                     </div>
+                     <div>
+                        Lying down to rest in the afternoon when circumstances permit: <input 
+                           type="text" 
+                           placeholder="ZERO - THREE" 
+                           type="text"
+                           maxlength="1"
+                           id="input5"
+                           />
+                     </div>
+                     <div>
+                        Sitting and talking to someone: <input 
+                           type="text" 
+                           placeholder="ZERO - THREE" 
+                           type="text"
+                           maxlength="1"
+                           id="input6"
+                           />
+                     </div>
+                     <div>
+                        Sitting quietly after a lunch without alcohol: <input 
+                           type="text" 
+                           placeholder="ZERO - THREE" 
+                           type="text"
+                           maxlength="1"
+                           id="input7"
+                           />
+                     </div>
+                     <div>
+                        In a car, while stopped for a few minutes in traffic: <input 
+                           type="text" 
+                           placeholder="ZERO - THREE" 
+                           type="text"
+                           maxlength="1"
+                           id="input8"
+                           />
+                     </div>
+                     <div>
+                        <input onclick="myFunction()">
+                                />
+                     </div>
+                  </form>
+               </div>
             </div>
-            
          </div>
-      </div>
       </div>
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
       <!--<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>-->
